@@ -13,7 +13,7 @@ module JtgsMegaLotto
       arr
 =end
       #refactor end
-      (0..59).to_a.sample(6)
+      (0..59).to_a.sample(JtgsMegaLotto.configuration.drawing_count)
     end
 
     def single_draw
